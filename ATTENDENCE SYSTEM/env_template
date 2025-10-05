@@ -1,0 +1,14 @@
+# Environment Variables Template
+# Copy this file to .env and update the values
+
+# Database Configuration
+DATABASE_URL=mysql+pymysql://root:password@localhost/attendance_system
+
+# Flask Configuration
+SECRET_KEY=your-secret-key-here
+
+# MySQL Configuration (update these with your actual MySQL credentials)
+MYSQL_HOST=localhost
+MYSQL_USER=root
+MYSQL_PASSWORD=password
+MYSQL_DATABASE=attendance_system
